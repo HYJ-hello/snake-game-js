@@ -18,6 +18,6 @@
     ```bash
     git clone https://github.com/HYJ-hello/HYJ-hello.git
     ```
-2. 打开 `index_Version2.html` 文件，即可在浏览器中游玩。
+2. 打开 `index.html` 文件，即可在浏览器中游玩。
 
 ## 文件结构
