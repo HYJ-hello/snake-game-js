@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  background: #1b1b1b;
+  color: #fff;
+  font-family: '微软雅黑', sans-serif;
+}
+
+canvas {
+  background: #222;
+  display: block;
+  margin: 15px auto;
+  border: 3px solid #4caf50;
+}
+
+button {
+  padding: 6px 14px;
+  font-size: 16px;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #388e3c;
+}
