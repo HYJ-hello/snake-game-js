@@ -1,2 +1,21 @@
-# snake-game-js
-经典贪吃蛇游戏，使用原生 JavaScript 和 HTML5 Canvas 实现，界面简洁美观，支持键盘操作。部分代码借助 AI 生成和优化。
+# 经典贪吃蛇游戏 (Classic Snake Game)
+
+这是一个基于 HTML5 Canvas 和原生 JavaScript 实现的贪吃蛇小游戏，界面简洁，操作流畅，适合学习和娱乐。
+
+## 项目特性
+
+- 原生 JavaScript 编写，无需第三方依赖
+- 支持键盘方向键操作
+- 自适应窗口样式
+- 计分与重新开始功能
+- 美观的 Canvas 绘制
+
+## 快速开始
+
+1. 克隆仓库：
+    ```bash
+    git clone https://github.com/HYJ-hello/HYJ-hello.git
+    ```
+2. 打开 `index_Version2.html` 文件，即可在浏览器中游玩。
+
+## 文件结构
