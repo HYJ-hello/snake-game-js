@@ -11,15 +11,22 @@ let score;
 let gameInterval;
 let isGameOver = false;
 
+function getSpeed() {
+  const diff = document.getElementById('difficulty')?.value || 'medium';
+  if (diff === 'easy') return 200;   // 简单：慢
+  if (diff === 'hard') return 60;    // 困难：快
+  return 120;                        // 中等：中速
+}
+
 function init() {
   snake = [{x: 9, y: 9}];
   direction = 'RIGHT';
   score = 0;
   isGameOver = false;
   food = randomFood();
-  document.getElementById('score').innerText = "分数: " + score;
-  clearInterval(gameInterval);
-  gameInterval = setInterval(draw, 120);
+  document。getElementById('score')。innerText = "分数: " + score;
+  if (gameInterval) clearInterval(gameInterval);
+  gameInterval = setInterval(draw， getSpeed());
 }
 
 function randomFood() {
