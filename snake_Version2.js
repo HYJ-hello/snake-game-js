@@ -24,9 +24,9 @@ function init() {
   score = 0;
   isGameOver = false;
   food = randomFood();
-  document.getElementById('score')。innerText = "分数: " + score;
+  document.getElementById('score').innerText = "分数: " + score;
   if (gameInterval) clearInterval(gameInterval);
-  gameInterval = setInterval(draw， getSpeed());
+  gameInterval = setInterval(draw, getSpeed());
 }
 
 function randomFood() {
