@@ -1,5 +1,5 @@
 # 经典贪吃蛇游戏 (Classic Snake Game)
-
+[简体中文](README.md) | [English](README-en.md)
 这是一个基于 HTML5 Canvas 和原生 JavaScript 实现的贪吃蛇小游戏，界面简洁，操作流畅，适合学习和娱乐。
 <img width="1358" height="620" alt="image" src="https://github.com/user-attachments/assets/91c40964-858c-41c2-b107-022ccbf47fcf" />
 
